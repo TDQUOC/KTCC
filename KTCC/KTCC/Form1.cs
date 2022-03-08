@@ -16,5 +16,18 @@ namespace KTCC
         {
 
         }
+
+        private void btnlogin_Click(object sender, EventArgs e)
+        {
+            string user = textboxusernam.Text;
+            string pass = textboxmatkhau.Text;
+            if (user =="admin" && pass == "admin")
+            {
+                Form2 f2 = new Form2();
+                f2.Show();
+                Form1 form1 = new Form1();
+                form1.Close();  
+            }
+        }
     }
 }

@@ -38,60 +38,57 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(79, 93);
+            this.label1.Location = new System.Drawing.Point(69, 70);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(107, 20);
+            this.label1.Size = new System.Drawing.Size(86, 15);
             this.label1.TabIndex = 0;
             this.label1.Text = "Tên đăng nhập";
             // 
             // textboxusernam
             // 
-            this.textboxusernam.Location = new System.Drawing.Point(193, 89);
-            this.textboxusernam.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.textboxusernam.Location = new System.Drawing.Point(169, 67);
             this.textboxusernam.Name = "textboxusernam";
-            this.textboxusernam.Size = new System.Drawing.Size(361, 27);
+            this.textboxusernam.Size = new System.Drawing.Size(316, 23);
             this.textboxusernam.TabIndex = 1;
             // 
             // textboxmatkhau
             // 
-            this.textboxmatkhau.Location = new System.Drawing.Point(193, 164);
-            this.textboxmatkhau.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.textboxmatkhau.Location = new System.Drawing.Point(169, 123);
             this.textboxmatkhau.Name = "textboxmatkhau";
-            this.textboxmatkhau.Size = new System.Drawing.Size(361, 27);
+            this.textboxmatkhau.Size = new System.Drawing.Size(316, 23);
             this.textboxmatkhau.TabIndex = 3;
             this.textboxmatkhau.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(112, 168);
+            this.label2.Location = new System.Drawing.Point(98, 126);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(70, 20);
+            this.label2.Size = new System.Drawing.Size(57, 15);
             this.label2.TabIndex = 2;
             this.label2.Text = "Mật khẩu";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // btnlogin
             // 
-            this.btnlogin.Location = new System.Drawing.Point(242, 217);
-            this.btnlogin.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnlogin.Location = new System.Drawing.Point(212, 163);
             this.btnlogin.Name = "btnlogin";
-            this.btnlogin.Size = new System.Drawing.Size(225, 112);
+            this.btnlogin.Size = new System.Drawing.Size(197, 84);
             this.btnlogin.TabIndex = 4;
             this.btnlogin.Text = "Đăng Nhập";
             this.btnlogin.UseVisualStyleBackColor = true;
+            this.btnlogin.Click += new System.EventHandler(this.btnlogin_Click);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(635, 360);
+            this.ClientSize = new System.Drawing.Size(556, 270);
             this.Controls.Add(this.btnlogin);
             this.Controls.Add(this.textboxmatkhau);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.textboxusernam);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
